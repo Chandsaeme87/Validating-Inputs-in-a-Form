@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS Function</title>
+        <script>
+                function validateInputs() {
+            var name = document.getElementById('title').value;
+
+            if (name.trim() === '') {
+                alert('Title is empty');
+            }
+        }
+        </script>
+    </head>
+<body>
+    <input type="text" id="title" class="form-control" />
+    <button type=”submit” onclick="validateInputs()"> Submit </button>
+</body>
+</html>
